@@ -1,0 +1,39 @@
+@import 'variables';
+@import 'mixins';
+@import 'components';
+@import 'loop';
+
+body {
+  font-size: $font-size-base;
+  color: $primary-color;
+  @include flex-center;
+  height: 100vh;
+
+  header {
+    background-color: $secondary-color;
+    h1 {
+      font-size: $font-size-large;
+      @include transition(all, 0.3s);
+    }
+  }
+
+  .content {
+    padding: 20px;
+    a {
+      color: $primary-color;
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+
+  .box {
+    @for $i from 1 through 5 {
+      &.box-#{$i} {
+        width: $i * 50px;
+        height: $i * 50px;
+        background-color: lighten($primary-color, $i * 5%);
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-size-base: 16px;
+$font-size-large: 24px;
+
+$base-spacing: 10px;
+$double-spacing: $base-spacing * 2;
+$primary-color: #3498db;
+
+@function calculate-spacing($multiplier) {
+    @return $base-spacing * $multiplier;
+}

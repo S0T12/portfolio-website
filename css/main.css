@@ -1,0 +1,87 @@
+.button, .button-primary {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.button:hover, .button-primary:hover {
+  background-color: #2ecc71;
+}
+
+.button-primary {
+  background-color: #217dbb;
+}
+
+.margin-1 {
+  margin: 10px;
+}
+
+.margin-2 {
+  margin: 20px;
+}
+
+.margin-3 {
+  margin: 30px;
+}
+
+.margin-4 {
+  margin: 40px;
+}
+
+.margin-5 {
+  margin: 50px;
+}
+
+body {
+  font-size: 16px;
+  color: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body header {
+  background-color: #2ecc71;
+}
+body header h1 {
+  font-size: 24px;
+  transition: all 0.3s;
+}
+body .content {
+  padding: 20px;
+}
+body .content a {
+  color: #3498db;
+}
+body .content a:hover {
+  color: #2ecc71;
+}
+body .box.box-1 {
+  width: 50px;
+  height: 50px;
+  background-color: #4aa3df;
+}
+body .box.box-2 {
+  width: 100px;
+  height: 100px;
+  background-color: #5faee3;
+}
+body .box.box-3 {
+  width: 150px;
+  height: 150px;
+  background-color: #75b9e7;
+}
+body .box.box-4 {
+  width: 200px;
+  height: 200px;
+  background-color: #8bc4ea;
+}
+body .box.box-5 {
+  width: 250px;
+  height: 250px;
+  background-color: #a0cfee;
+}
+
+/*# sourceMappingURL=main.css.map */
